@@ -1,0 +1,7 @@
+$color:red;
+.a{
+    color:$color;
+    .b{
+        color:darken($color,10)
+    }
+}
